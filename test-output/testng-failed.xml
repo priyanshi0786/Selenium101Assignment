@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Selenium 101 Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Edge on Windows(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="version" value="latest"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="automationProject.Selenium101Test">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- automationProject.Selenium101Test -->
+    </classes>
+  </test> <!-- Edge on Windows(failed) -->
+  <test thread-count="2" parallel="tests" name="Chrome on Windows(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="latest"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="automationProject.Selenium101Test">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- automationProject.Selenium101Test -->
+    </classes>
+  </test> <!-- Chrome on Windows(failed) -->
+</suite> <!-- Failed suite [Selenium 101 Suite] -->

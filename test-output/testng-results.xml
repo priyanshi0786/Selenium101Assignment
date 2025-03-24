@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T23:32:27 IST" name="Selenium 101 Suite" finished-at="2025-03-24T23:32:59 IST" duration-ms="31601">
+    <groups>
+    </groups>
+    <test started-at="2025-03-24T23:32:27 IST" name="Edge on Windows" finished-at="2025-03-24T23:32:58 IST" duration-ms="30671">
+      <class name="automationProject.Selenium101Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automationProject.Selenium101Test@130d63be]" started-at="2025-03-24T23:32:27 IST" name="setup" finished-at="2025-03-24T23:32:38 IST" duration-ms="10366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testScenario1()[pri:0, instance:automationProject.Selenium101Test@130d63be]" started-at="2025-03-24T23:32:38 IST" name="testScenario1" finished-at="2025-03-24T23:32:40 IST" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method signature="testScenario2()[pri:0, instance:automationProject.Selenium101Test@130d63be]" started-at="2025-03-24T23:32:40 IST" name="testScenario2" finished-at="2025-03-24T23:32:47 IST" duration-ms="7192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method signature="testScenario3()[pri:0, instance:automationProject.Selenium101Test@130d63be]" started-at="2025-03-24T23:32:47 IST" name="testScenario3" finished-at="2025-03-24T23:32:58 IST" duration-ms="10380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationProject.Selenium101Test@130d63be]" started-at="2025-03-24T23:32:58 IST" name="tearDown" finished-at="2025-03-24T23:32:58 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationProject.Selenium101Test -->
+    </test> <!-- Edge on Windows -->
+    <test started-at="2025-03-24T23:32:27 IST" name="Chrome on Windows" finished-at="2025-03-24T23:32:59 IST" duration-ms="31601">
+      <class name="automationProject.Selenium101Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automationProject.Selenium101Test@6572421]" started-at="2025-03-24T23:32:27 IST" name="setup" finished-at="2025-03-24T23:32:37 IST" duration-ms="9181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testScenario1()[pri:0, instance:automationProject.Selenium101Test@6572421]" started-at="2025-03-24T23:32:37 IST" name="testScenario1" finished-at="2025-03-24T23:32:42 IST" duration-ms="4955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method signature="testScenario2()[pri:0, instance:automationProject.Selenium101Test@6572421]" started-at="2025-03-24T23:32:42 IST" name="testScenario2" finished-at="2025-03-24T23:32:49 IST" duration-ms="7222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method signature="testScenario3()[pri:0, instance:automationProject.Selenium101Test@6572421]" started-at="2025-03-24T23:32:49 IST" name="testScenario3" finished-at="2025-03-24T23:32:59 IST" duration-ms="9983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationProject.Selenium101Test@6572421]" started-at="2025-03-24T23:32:59 IST" name="tearDown" finished-at="2025-03-24T23:32:59 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationProject.Selenium101Test -->
+    </test> <!-- Chrome on Windows -->
+  </suite> <!-- Selenium 101 Suite -->
+</testng-results>
